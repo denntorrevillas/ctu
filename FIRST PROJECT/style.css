@@ -1,0 +1,231 @@
+body{
+    margin: 0;
+}
+*{
+    font-family: montserrat;
+    padding: 0;
+}
+.top{
+    background-color: #f9a602;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.menu{
+    display: none;
+}
+.left{
+    width: 40% ;
+}
+.right{
+    width: 60%;
+}
+.image img{
+    width: 80px;
+    height: 80px;
+}
+.top{
+    display: flex;
+}
+.logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.right{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+.nav a{
+    margin-left: 33px;
+    margin-right: 33px;
+    font-family: montserrat;
+    font-size: 15px;
+    color: #710D0D;
+    text-decoration: none;
+}
+.text h1{
+    font-size: 23px;
+    color: #710D0D;
+    padding-left: 6px;
+}
+.text h1 span{
+    font-size: 17px;
+}
+.wide{
+  width: 100%;
+}
+.wide-img img{
+   
+    width: 100%;
+}
+.res{
+    display: none;
+}
+.vmgo{
+    padding-bottom: 4%;
+    color: #f1f1f1;
+    padding-top: 5%;
+    background-color: #710D0D;
+}
+.head {
+    font-family: montserrat;
+
+}
+.all-vmgo div{
+    width: 27%;
+    margin-left: 30px;
+    margin-right: 30px;
+    background-color: #f9a602;
+    color: black;
+    padding-left: 30px;
+    padding-right: 30px;
+    border-radius: 15px;
+    
+
+}
+
+.all-vmgo{
+    margin-top: 3%;
+    display: flex;
+    justify-content: center;
+}
+.head{
+    justify-content: center;
+    display: flex;
+}
+.all-vmgo h2{
+    padding-top: 5%;
+    font-family: montserrat;   
+    text-align: center;
+}
+.all-vmgo p{
+    padding-top: 3%;
+    font-family: montserrat;
+
+}
+
+.portal{
+    padding-top: 3%;
+    background-color: #f9a602;
+
+
+}
+.portal-header{
+    justify-content: center;
+    display: flex;
+}
+.portal-img{
+    padding-bottom: 20px;
+    justify-content: center;
+    padding-top: 20px;
+    margin: auto;
+    background-color: #710D0D;
+    width: 70%;
+    text-align: center;
+    
+}
+.portal-img img{
+    border-radius: 20px;
+}
+.portal-link h1{
+    color: #710D0D;
+    text-align: center;
+}
+.note{
+    align-items: center;
+  
+    background-color: #710D0D;
+   
+}
+.note h2{
+    color: #f1f1f1;
+    font-size: 20px;
+    text-align: center;
+    padding-bottom: 10px;
+   
+}
+
+@media screen and (max-width:600px) {
+    .wide{
+        display: none;
+    }
+    .res{
+        display: block;
+    }
+    .res img{
+        width: 100%;
+    }
+    .right{
+        display: none;
+    }
+    .left{
+       
+        width: 100%;
+    }
+    .menu{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-top: 5px;
+        padding-bottom: 5px;
+    }
+    .menu img{
+        height: 25px;
+        width: 25px;
+    }
+
+
+    .vmgo{
+        justify-content: center;
+        align-items: center;
+        display: block;
+        color: #f1f1f1;
+        padding-top: 5%;
+        background-color: #710D0D;
+    }
+    .head h1 {
+        font-family: montserrat;
+        text-align: center;
+        font-size: 25px;
+    
+    }
+    .all-vmgo div{
+        width: 70%;
+       
+        background-color: #f9a602;
+        color: black;
+        padding-left: 30px;
+        padding-right: 30px;
+        border-radius: 15px;
+        padding-bottom: 15px;
+        
+    
+    }
+    
+    .all-vmgo{
+        margin-top: 3%;
+        display: block;
+        align-items: center;
+        justify-content: center;
+    }
+    .head{
+        justify-content: center;
+        display: flex;
+    }
+    .all-vmgo h2{
+        padding-top: 5%;
+        font-family: montserrat;   
+        text-align: center;
+    }
+    .all-vmgo p{
+        padding-top: 3%;
+        font-family: montserrat;
+    
+    }
+    .all-vmgo li{
+        font-family: montserrat;
+    }
+  
+    
+}
